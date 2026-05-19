@@ -11,6 +11,10 @@ title = st.text_input(
   placeholder="請填寫會議名稱..."
 )
 
+today = st.date_input(
+  "選擇日期",
+  datetime.date.today()
+)
     
 col_left, col_center, col_right = st.columns([1, 2, 1.2], gap="large")
 
@@ -21,10 +25,7 @@ with col_left:
         st.write(" 標題：開學典禮") 
         st.write(" 時間：09:00")
         
-today = st.date_input(
-  "選擇日期",
-  datetime.date.today()
-)
+
         
 
 
