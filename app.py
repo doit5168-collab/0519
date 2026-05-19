@@ -21,7 +21,7 @@ with col_center:
 
 with col_right: 
     st.write("###  設定區") 
-    st.button("控制項放右邊"
+    st.button("控制項放右邊")
     @st.dialog("系統公告")
     def show_alert():
         st.write("本週作業請確認 requirements.txt 有正確設定！")
