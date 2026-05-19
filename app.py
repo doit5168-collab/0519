@@ -32,5 +32,5 @@ with col_right:
         st.divider()
         st.write("下面是內容區塊")
 
-with st.popover("快速進階篩選"):
-    st.checkbox("隱藏已過期行程")
+    with st.popover("快速進階篩選"):
+        st.checkbox("隱藏已過期行程")
