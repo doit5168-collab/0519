@@ -12,6 +12,9 @@ with col_left:
     with st.container(border=True): 
         st.write(" 標題：開學典禮") 
         st.write(" 時間：09:00")
+        st.write("上面是大標題")
+        st.divider()
+        st.write("下面是內容區塊")
 
 with col_center:
     st.write("###  看板區") 
