@@ -35,7 +35,11 @@ with col_left:
         st.write(" 標題：開學典禮") 
         st.write(" 時間：09:00")
         
-
+view = st.segmented_control(
+  "檢視模式",
+  ["月視角", "週視角"],
+  default="月視角"
+)
         
 
 
