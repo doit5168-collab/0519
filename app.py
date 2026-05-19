@@ -20,6 +20,9 @@ with col_center:
     with st.expander("查看進階提醒參數設定"):
         st.write("這裡是發信伺服器的底層設定...")
 
+with st.popover("快速進階篩選"):
+    st.checkbox("隱藏已過期行程")
+
 with col_right: 
     st.write("###  設定區") 
     st.button("控制項放右邊")
