@@ -20,6 +20,12 @@ meeting_time = st.time_input(
   "選擇時間"
 )
 
+view = st.segmented_control(
+  "檢視模式",
+  ["月視角", "週視角"],
+  default="月視角"
+)
+
 col_left, col_center, col_right = st.columns([1, 2, 1.2], gap="large")
 
 with col_left: 
