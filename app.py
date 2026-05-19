@@ -15,7 +15,11 @@ today = st.date_input(
   "選擇日期",
   datetime.date.today()
 )
-    
+
+meeting_time = st.time_input(
+  "選擇時間"
+)
+
 col_left, col_center, col_right = st.columns([1, 2, 1.2], gap="large")
 
 with col_left: 
